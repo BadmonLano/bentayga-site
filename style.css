@@ -58,3 +58,4 @@ footer{text-align:center;padding:2rem;opacity:.5;font-size:.8rem;border-top:1px 
 .pill.r{background:var(--red);color:#fff}.j6t{color:#fff;-webkit-text-stroke:.5px var(--red)}
 .crest{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3}
 .jpic{object-fit:contain;background:#000}
+.funfact{margin-top:1rem;font:.8rem ui-monospace,monospace;opacity:.6}.funfact a{color:var(--gold)}
