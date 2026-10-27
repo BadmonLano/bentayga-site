@@ -37,9 +37,9 @@ section{padding:6rem 5vw;max-width:1250px;margin:auto}
 .bot:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--grn)}.soon:before{background:var(--pur)}
 .ghostcard{border-style:dashed;background:none}
 .pill{font-size:.68rem;letter-spacing:.15em;padding:.2rem .55rem;border-radius:2px;color:#000}.pill.g{background:var(--grn)}.pill.p{background:var(--pur);color:#fff}
-.jordan{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:center}
+.jordan{display:grid;grid-template-columns:1fr 1.2fr;gap:3rem;align-items:center}
 .jordan p{margin-bottom:1rem;opacity:.85}.jordan a{color:var(--grn)}.jordan .btn{color:var(--gold)}.big{font-size:1.6rem;font-weight:800;color:var(--pur);opacity:1!important}
-.jart{position:relative;aspect-ratio:1;border:2px solid #222;background:radial-gradient(circle at 50% 45%,#1b0730,#000 70%);overflow:hidden}
+.jart{position:relative;aspect-ratio:16/9;border:2px solid #222;background:radial-gradient(circle at 50% 45%,#1b0730,#000 70%);overflow:hidden}
 .jart:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 22px,rgba(0,255,106,.06) 22px 24px)}
 .eyes{position:absolute;top:42%;left:50%;transform:translateX(-50%);display:flex;gap:3.5rem}.eyes span{width:28px;height:12px;background:var(--red);box-shadow:0 0 25px 6px var(--red);border-radius:50%;animation:blink 5s infinite}
 @keyframes blink{0%,94%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
