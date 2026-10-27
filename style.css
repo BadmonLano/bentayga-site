@@ -24,7 +24,6 @@ h2{font-size:clamp(1.5rem,3.2vw,2.5rem);line-height:1.2;margin:.6rem 0 1rem}h2 e
 .hero-art{position:relative;justify-self:center}
 .hero-art img{width:min(420px,80vw);border-radius:14px;box-shadow:0 0 60px rgba(155,48,255,.45),0 0 0 2px #222;animation:float 6s ease-in-out infinite}
 @keyframes float{50%{transform:translateY(-12px)}}
-.j6{position:absolute;right:-10px;bottom:-10px;font:900 1.4rem ui-monospace,monospace;color:#fff;-webkit-text-stroke:1px var(--red);opacity:.75}
 .ticker{overflow:hidden;background:var(--gold);color:#000;font-weight:900;letter-spacing:.2em;padding:.55rem 0;transform:rotate(-1.2deg);margin:1rem -2vw}
 .ticker div{white-space:nowrap;animation:tick 30s linear infinite;width:max-content}@keyframes tick{to{transform:translateX(-50%)}}
 section{padding:6rem 5vw;max-width:1250px;margin:auto}
@@ -44,7 +43,6 @@ section{padding:6rem 5vw;max-width:1250px;margin:auto}
 .eyes{position:absolute;top:42%;left:50%;transform:translateX(-50%);display:flex;gap:3.5rem}.eyes span{width:28px;height:12px;background:var(--red);box-shadow:0 0 25px 6px var(--red);border-radius:50%;animation:blink 5s infinite}
 @keyframes blink{0%,94%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
 .crown{position:absolute;top:12%;left:50%;transform:translateX(-50%) rotate(-8deg);font-size:4rem;color:var(--gold);opacity:.8;text-shadow:0 0 20px var(--gold)}
-.big6{font-size:2.2rem;right:14px;bottom:8px}
 .road{list-style:none;border-left:3px solid #222;margin-left:.6rem;margin-top:2rem}
 .road li{position:relative;padding:0 0 2.2rem 2rem}.road li:before{content:"";position:absolute;left:-10px;top:.3rem;width:16px;height:16px;background:var(--bk);border:3px solid var(--pur);transform:rotate(45deg)}
 .road li.done:before{background:var(--grn);border-color:var(--grn)}.road b{font-family:ui-monospace,monospace;color:var(--red)}.road h4{font-size:1.3rem;color:var(--gold)}
