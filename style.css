@@ -30,9 +30,9 @@ section{padding:6rem 5vw;max-width:1250px;margin:auto}
 .sec{font-size:clamp(1.8rem,4vw,3rem);font-weight:900;text-transform:uppercase;margin-bottom:1rem}.sec span{color:var(--red);font-family:ui-monospace,monospace;font-size:.5em;vertical-align:middle;margin-right:.5rem}.sec small{font-size:.4em;color:var(--grn)}
 .sub{opacity:.75;margin-bottom:2rem}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;margin-top:2rem}
-.card,.tier{position:relative;background:linear-gradient(160deg,#111,#0a0a0a);border:1px solid #232323;padding:1.8rem;border-radius:4px;text-decoration:none;transition:.25s}
-.card:hover,.tier:hover{border-color:var(--pur);transform:translateY(-4px);box-shadow:0 10px 40px rgba(155,48,255,.25)}
-.card i{font-style:normal;font-size:1.8rem;color:var(--gold)}.card h4,.tier h4{font-size:1.35rem;margin:.4rem 0;color:var(--gold)}.card p{opacity:.8}
+.card{position:relative;background:linear-gradient(160deg,#111,#0a0a0a);border:1px solid #232323;padding:1.8rem;border-radius:4px;text-decoration:none;transition:.25s}
+.card:hover{border-color:var(--pur);transform:translateY(-4px);box-shadow:0 10px 40px rgba(155,48,255,.25)}
+.card i{font-style:normal;font-size:1.8rem;color:var(--gold)}.card h4{font-size:1.35rem;margin:.4rem 0;color:var(--gold)}.card p{opacity:.8}
 .bot:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--grn)}.soon:before{background:var(--pur)}
 .ghostcard{border-style:dashed;background:none}
 .pill{font-size:.68rem;letter-spacing:.15em;padding:.2rem .55rem;border-radius:2px;color:#000}.pill.g{background:var(--grn)}.pill.p{background:var(--pur);color:#fff}
@@ -46,15 +46,20 @@ section{padding:6rem 5vw;max-width:1250px;margin:auto}
 .road{list-style:none;border-left:3px solid #222;margin-left:.6rem;margin-top:2rem}
 .road li{position:relative;padding:0 0 2.2rem 2rem}.road li:before{content:"";position:absolute;left:-10px;top:.3rem;width:16px;height:16px;background:var(--bk);border:3px solid var(--pur);transform:rotate(45deg)}
 .road li.done:before{background:var(--grn);border-color:var(--grn)}.road b{font-family:ui-monospace,monospace;color:var(--red)}.road h4{font-size:1.3rem;color:var(--gold)}
-.tier ul{list-style:none;margin:1rem 0 1.5rem}.tier li{padding:.35rem 0;border-bottom:1px solid #1c1c1c}.tier li:before{content:"▸ ";color:var(--grn)}
-.price{font-size:2.6rem;font-weight:900}.price small{font-size:1rem;opacity:.6}
-.tier.hot{border-color:var(--gold);box-shadow:0 0 40px rgba(255,215,0,.15)}
+.empire{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem 2.5rem;border-color:var(--gold);box-shadow:0 0 40px rgba(255,215,0,.15);margin-top:1.2rem}
+.empire:hover{border-color:var(--gold);box-shadow:0 10px 40px rgba(255,215,0,.28)}
+.empire-copy{flex:1 1 18rem;max-width:40rem}
+.empire h4{font-size:clamp(1.8rem,3vw,2.4rem)}
+.empire ul{list-style:none;margin:.8rem 0 0}
+.empire li{padding:.4rem 0;border-bottom:1px solid #1c1c1c}
+.empire li:before{content:"▸ ";color:var(--grn)}
+.empire .btn{flex:0 0 auto;white-space:nowrap}
 .contact{text-align:center}.mail{display:inline-block;font-size:clamp(1.1rem,3.5vw,2.2rem);font-weight:900;color:var(--grn);margin:1rem 0 2rem;word-break:break-all}
 .socials{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem}.socials a{border:1px solid #333;padding:.6rem 1rem;text-decoration:none}.socials a:hover{border-color:var(--gold);color:var(--gold)}
 footer{text-align:center;padding:2rem;opacity:.5;font-size:.8rem;border-top:1px solid #151515}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
-@media(max-width:860px){.links{display:none}.hero,.jordan{grid-template-columns:1fr;text-align:left}.hero{padding-top:2.5rem}.grid3{grid-template-columns:1fr}section{padding:4rem 6vw}}
+@media(max-width:860px){.links{display:none}.hero,.jordan{grid-template-columns:1fr;text-align:left}.hero{padding-top:2.5rem}.grid3{grid-template-columns:1fr}section{padding:4rem 6vw}.empire{align-items:flex-start}.empire .btn{white-space:normal}}
 .pill.r{background:var(--red);color:#fff}.j6t{color:#fff;-webkit-text-stroke:.5px var(--red)}
 .crest{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3}
 .jpic{object-fit:contain;background:#000}
